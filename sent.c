@@ -29,6 +29,8 @@ char *argv0;
 #define LEN(a)         (sizeof(a) / sizeof(a)[0])
 #define LIMIT(x, a, b) (x) = (x) < (a) ? (a) : (x) > (b) ? (b) : (x)
 #define MAXFONTSTRLEN  128
+#define NUMFONTSCALES 42
+#define FONTSZ(x) ((int)(10.0 * powf(1.1288, (x)))) /* x in [0, NUMFONTSCALES - 1] */
 
 typedef enum {
 	NONE = 0,
