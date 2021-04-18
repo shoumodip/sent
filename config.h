@@ -2,7 +2,6 @@
 
 static char *fontfallbacks[] = {
     "Monospace",
-    "DejaVu Sans",
 };
 
 static const char *colors[] = {
