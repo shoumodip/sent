@@ -1,13 +1,13 @@
 /* See LICENSE file for copyright and license details. */
 
 static char *fontfallbacks[] = {
-    "Ubuntu",
+    "Monospace",
     "DejaVu Sans",
 };
 
 static const char *colors[] = {
-    "#d4be98", /* Foreground color */
-    "#282828", /* Background color */
+    "#ABB2BF", /* Foreground color */
+    "#282C34", /* Background color */
 };
 
 static const float linespacing = 1.4;
