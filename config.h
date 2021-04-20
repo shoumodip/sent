@@ -5,8 +5,8 @@ static char *fontfallbacks[] = {
 };
 
 static const char *colors[] = {
-    "#ABB2BF", /* Foreground color */
-    "#282C34", /* Background color */
+    "#DCDCCC", /* Foreground color */
+    "#3F3F3F", /* Background color */
 };
 
 static const float linespacing = 1.4;
