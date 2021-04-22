@@ -1,12 +1,12 @@
 /* See LICENSE file for copyright and license details. */
 
 static char *fontfallbacks[] = {
-    "Monospace",
+    "Roboto",
 };
 
 static const char *colors[] = {
-    "#DCDCCC", /* Foreground color */
-    "#3F3F3F", /* Background color */
+    "#e8e8d3", /* Foreground color */
+    "#151515", /* Background color */
 };
 
 static const float linespacing = 1.4;
